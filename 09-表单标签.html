@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表单元素</title>
+</head>
+<body>
+<form action="test.php" method="get" name="用户信息">
+    <lable for="username">用户名</lable>
+    <input type="text" id="username"  placeholder="zj" name="username"><br>
+    密码： <input type="password"  name="pwd" value="12"><br>
+    性别： 男<input type="radio" name="sex" checked> 女<input type="radio" name="sex"><br>
+    复选框:  <label for="nan">男</label><input type="checkbox" name="check"  id="nan">
+            <label for="nv">女</label><input type="checkbox" name="check" checked id="nv"><br>
+    <label for="food">爱吃的水果</label>
+    <select name="food" id="food">
+        <option value="apple">苹果</option>
+        <option value="strawberry" selected>草莓</option>
+        <option value="banana">香蕉</option>
+    </select>
+    <br>
+    <textarea name="comment" id="comment" cols="5" rows="3"></textarea><br>
+    <input type="button" value="普通按钮"><br>
+    <input type="file" value="上传文件"><br>
+    <input type="submit" value="submit按钮">
+    <input type="reset" value="重置按钮">
+
+</form>
+</body>
+</html>
