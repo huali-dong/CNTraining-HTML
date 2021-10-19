@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wenhao</title>
+    <link rel="stylesheet" href="./02-html.css">
+</head>
+<div class="02-html.css">
+
+    <body>
+        <form action="test" method="get" name="用户信息">
+            <h4>我的信息</h4>
+            <lable for="name">姓名</lable>
+            <input type="text" id="name" placeholder="请输入你的个人姓名"><br>
+            性别 男<input type="radio" name="sex"> 女<input type="radio" name="sex"><br>
+            <label for="hobby">爱好 </label>
+            <select name="hobby" id="hobby">
+                <option value="编程" selected>编程</option>
+                <option value="睡觉">睡觉</option>
+                <option value="吃饭">吃饭</option>
+                <option value="打豆豆">打豆豆</option>
+            </select>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="请添加个人描述"></textarea>
+            <img width="100" src="zj.jpeg" alt="这是张杰" title="张杰">
+        </form>
+        <h4>个人推荐的电影</h4>
+        <video src="vedio.mp4" width="300" controls>
+        </video>
+        <table border="1px" cellpadding="20" cellspacing="0">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>恐怖</th>
+                    <th>爱情</th>
+                    <th>喜剧</th>
+                </tr>
+                <tr>
+                    <td>强烈推荐</td>
+                    <td>僵尸叔叔</td>
+                    <td colspan="10">泰坦尼克号</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>一般推荐</td>
+                    <td rowspan="2">京城18号</td>
+                    <td>我的少女时代</td>
+                    <td>缝纫机乐队</td>
+                </tr>
+                <tr>
+                    <td>不推荐</td>
+                    <td>一吻定情</td>
+                    <td>哈哈哈</td>
+                </tr>
+            </tbody>
+        </table>
+        <dl>
+            <dt>个人技术地址</dt>
+            <dd>
+                <a href="https://github.com">github地址</a>
+                <br>
+                <a href="https://csdn.com">csdn</a><br>
+                <a href="https://juejin.com">juejin</a>
+            </dd>
+        </dl>
+    </body>
+</div>
+
+</html>
